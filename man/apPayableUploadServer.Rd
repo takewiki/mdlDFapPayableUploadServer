@@ -2,7 +2,7 @@
 % Please edit documentation in R/apPayable.R
 \name{apPayableUploadServer}
 \alias{apPayableUploadServer}
-\title{处理逻辑}
+\title{处理逻辑（带进度条）}
 \usage{
 apPayableUploadServer(input, output, session, dms_token)
 }
@@ -19,7 +19,7 @@ apPayableUploadServer(input, output, session, dms_token)
 返回值
 }
 \description{
-处理逻辑
+处理逻辑（带进度条）
 }
 \examples{
 apPayableUploadServer()
